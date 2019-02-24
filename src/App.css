@@ -1,32 +1,72 @@
-.App {
-  text-align: center;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
+/* ### HEADER ### */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background-color: rgb(35,41,45);
+  height: 60px;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/* header-logo */
+
+.logo-header {
+  /* background-color: red; */
+  height: 57px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* search bar */
+
+input {
+  background-color: rgb(62,68,71);
+  height: 30px;
+  width: 270px;
+  border: none;
+  margin: 12.5px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+
+}
+
+/* main navbar */
+
+.nav-header-container {
+  display:flex;
+}
+
+.nav-header {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-header a {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-header-right-container {
+  display: flex;
+  margin-right: 5px;
+}
+
+.nav-right img {
+  height: 57px;
+  margin-right: 7px;
+}
+
+.bell {
+  position: relative;
+  top: 2px;
+  left: 5px;
 }
